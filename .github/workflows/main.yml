@@ -1,8 +1,8 @@
 on:
     push:
       branches: [ 'master' , 'UI_CHANGES' ]
-  name: 🚀 Deployment
-  jobs:
+name: 🚀 Deployment
+jobs:
     web-deploy:
       name: 🎉 Deploy
       runs-on: ubuntu-latest
