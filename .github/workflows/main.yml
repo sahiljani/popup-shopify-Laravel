@@ -1,6 +1,6 @@
 on:
     push:
-      branches: [ 'master' , 'UI_CHANGES' ]
+      branches: [ 'main' ]
 name: 🚀 Deployment
 jobs:
     web-deploy:
